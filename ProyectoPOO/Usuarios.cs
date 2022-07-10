@@ -22,8 +22,8 @@ namespace ProyectoPOO
         }
         void mantenimiento(String accion)
         {
-            objent.id_tipo = txttipo.Text;
-            objent.id_persona = txtpersona.Text;          
+            objent.id_persona = txtpersona.Text;
+            objent.id_tipo = txttipo.Text;                    
             objent.nombre = txtnombreu.Text;
             objent.usuario = txtusuariou.Text;
             objent.clave = txtcontraseña.Text;
@@ -116,8 +116,8 @@ namespace ProyectoPOO
             {
                 int fila = dataGridView1.CurrentCell.RowIndex;
 
-                txtpersona.Text = dataGridView1[0, fila].Value.ToString();
-                txttipo.Text = dataGridView1[1, fila].Value.ToString();
+                txtpersona.Text = dataGridView1[1, fila].Value.ToString();
+                txttipo.Text = dataGridView1[0, fila].Value.ToString();
                 txtnombreu.Text = dataGridView1[2, fila].Value.ToString();
                 txtusuariou.Text = dataGridView1[3, fila].Value.ToString();
                 txtcontraseña.Text = dataGridView1[4, fila].Value.ToString();
