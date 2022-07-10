@@ -47,17 +47,15 @@ namespace ProyectoPOO
         }
 
         private void Usuarios_Load(object sender, EventArgs e)
-            
+
         {
             dataGridView1.DataSource = objneg.N_listar_clientes();
         }
-
-        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnlimpiar_Click(object sender, EventArgs e)
         {
             limpiar();
         }
-
-        private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnregistrar_Click(object sender, EventArgs e)
         {
             if (txtpersona.Text == "")
             {
@@ -70,7 +68,7 @@ namespace ProyectoPOO
             }
         }
 
-        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnmodificar_Click(object sender, EventArgs e)
         {
             if (txtpersona.Text != "")
             {
@@ -83,17 +81,19 @@ namespace ProyectoPOO
             }
         }
 
-        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btneliminar_Click(object sender, EventArgs e)
         {
-            if (txtpersona.Text != "")
+            if (Login.tipo=="A0001")
             {
-                if (MessageBox.Show("¿Deseas eliminar a " + txtnombreu.Text + "?", "Mensaje",
+                if (txtpersona.Text != "" && MessageBox.Show("¿Deseas eliminar a " + txtnombreu.Text + "?", "Mensaje",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
-                {
-                    mantenimiento("3");
-                    limpiar();
-                }
+            {
+                mantenimiento("3");
+                limpiar();
             }
+            }else {btneliminar.Enabled = false;}
+            
+
         }
 
         private void txtbuscar_TextChanged(object sender, EventArgs e)
@@ -125,5 +125,7 @@ namespace ProyectoPOO
                 txtdni.Text = dataGridView1[6, fila].Value.ToString();
             }
         }
+
+        
     }
 }

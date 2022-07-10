@@ -26,21 +26,21 @@ namespace ProyectoPOO
                 {
 
                     btnclientes.Enabled = true;
-                    btnventas.Enabled = true;
+                    btnproductos.Enabled = true;
                     btncompras.Enabled = true;
 
                     lblcargo.Text = "Administrador";
                 }
 
-                //Ventas
+                //Cliente
                 else if (Login.tipo == "A0002")
 
                 {
-                    btnclientes.Enabled = false;
-                    btnventas.Enabled = true;
+                    btnclientes.Enabled = true;
+                    btnproductos.Enabled = true;
                     btncompras.Enabled = false;
 
-                    lblcargo.Text = "Ventas";
+                    lblcargo.Text = "Cliente";
                 }
 
                 lblnombre.Text = Login.usuario_nombre;

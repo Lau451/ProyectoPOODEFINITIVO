@@ -35,7 +35,7 @@
             this.lblnombre = new System.Windows.Forms.Label();
             this.lblcargo = new System.Windows.Forms.Label();
             this.lblfecha = new System.Windows.Forms.Label();
-            this.btnventas = new System.Windows.Forms.Button();
+            this.btnproductos = new System.Windows.Forms.Button();
             this.btncompras = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -98,15 +98,15 @@
             this.lblfecha.TabIndex = 5;
             this.lblfecha.Text = "...";
             // 
-            // btnventas
+            // btnproductos
             // 
-            this.btnventas.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnventas.Location = new System.Drawing.Point(74, 333);
-            this.btnventas.Name = "btnventas";
-            this.btnventas.Size = new System.Drawing.Size(197, 64);
-            this.btnventas.TabIndex = 6;
-            this.btnventas.Text = "VENTAS";
-            this.btnventas.UseVisualStyleBackColor = true;
+            this.btnproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproductos.Location = new System.Drawing.Point(38, 333);
+            this.btnproductos.Name = "btnproductos";
+            this.btnproductos.Size = new System.Drawing.Size(243, 64);
+            this.btnproductos.TabIndex = 6;
+            this.btnproductos.Text = "PRODUCTOS";
+            this.btnproductos.UseVisualStyleBackColor = true;
             // 
             // btncompras
             // 
@@ -140,7 +140,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnclientes);
             this.Controls.Add(this.btncompras);
-            this.Controls.Add(this.btnventas);
+            this.Controls.Add(this.btnproductos);
             this.Controls.Add(this.lblfecha);
             this.Controls.Add(this.lblcargo);
             this.Controls.Add(this.lblnombre);
@@ -163,7 +163,7 @@
         private System.Windows.Forms.Label lblnombre;
         private System.Windows.Forms.Label lblcargo;
         private System.Windows.Forms.Label lblfecha;
-        private System.Windows.Forms.Button btnventas;
+        private System.Windows.Forms.Button btnproductos;
         private System.Windows.Forms.Button btncompras;
         private System.Windows.Forms.Button btnclientes;
         private System.Windows.Forms.Timer timer1;

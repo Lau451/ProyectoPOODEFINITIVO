@@ -29,12 +29,11 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnlimpiar = new System.Windows.Forms.Button();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.btnregistrar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             this.txtpersona = new System.Windows.Forms.TextBox();
             this.txtcorreo = new System.Windows.Forms.TextBox();
             this.txtusuariou = new System.Windows.Forms.TextBox();
@@ -54,7 +53,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.menuStrip2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -65,54 +63,11 @@
             // 
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 36);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoToolStripMenuItem,
-            this.registrarToolStripMenuItem,
-            this.modificarToolStripMenuItem,
-            this.eliminarToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 36);
-            this.menuStrip2.TabIndex = 1;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // nuevoToolStripMenuItem
-            // 
-            this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(86, 32);
-            this.nuevoToolStripMenuItem.Text = "Limpiar";
-            this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
-            // 
-            // registrarToolStripMenuItem
-            // 
-            this.registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
-            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(97, 29);
-            this.registrarToolStripMenuItem.Text = "Registrar";
-            this.registrarToolStripMenuItem.Click += new System.EventHandler(this.registrarToolStripMenuItem_Click);
-            // 
-            // modificarToolStripMenuItem
-            // 
-            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(103, 29);
-            this.modificarToolStripMenuItem.Text = "Modificar";
-            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
-            // 
-            // eliminarToolStripMenuItem
-            // 
-            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
-            this.eliminarToolStripMenuItem.Text = "Eliminar";
-            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
@@ -130,116 +85,172 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(13, 36);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(693, 276);
+            this.groupBox1.Size = new System.Drawing.Size(693, 204);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpiar.Location = new System.Drawing.Point(387, 243);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(123, 41);
+            this.btnlimpiar.TabIndex = 17;
+            this.btnlimpiar.Text = "Limpiar";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
+            // 
+            // btnmodificar
+            // 
+            this.btnmodificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmodificar.Location = new System.Drawing.Point(23, 243);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(123, 41);
+            this.btnmodificar.TabIndex = 16;
+            this.btnmodificar.Text = "Modificar";
+            this.btnmodificar.UseVisualStyleBackColor = true;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
+            // 
+            // btnregistrar
+            // 
+            this.btnregistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregistrar.Location = new System.Drawing.Point(199, 243);
+            this.btnregistrar.Name = "btnregistrar";
+            this.btnregistrar.Size = new System.Drawing.Size(123, 41);
+            this.btnregistrar.TabIndex = 15;
+            this.btnregistrar.Text = "Registrar";
+            this.btnregistrar.UseVisualStyleBackColor = true;
+            this.btnregistrar.Click += new System.EventHandler(this.btnregistrar_Click);
+            // 
+            // btneliminar
+            // 
+            this.btneliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btneliminar.Location = new System.Drawing.Point(576, 243);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(123, 41);
+            this.btneliminar.TabIndex = 14;
+            this.btneliminar.Text = "Eliminar";
+            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // txtpersona
             // 
             this.txtpersona.BackColor = System.Drawing.SystemColors.Window;
             this.txtpersona.Enabled = false;
-            this.txtpersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpersona.Location = new System.Drawing.Point(553, 24);
+            this.txtpersona.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpersona.Location = new System.Drawing.Point(591, 24);
             this.txtpersona.Name = "txtpersona";
-            this.txtpersona.Size = new System.Drawing.Size(134, 26);
+            this.txtpersona.Size = new System.Drawing.Size(96, 23);
             this.txtpersona.TabIndex = 13;
             // 
             // txtcorreo
             // 
-            this.txtcorreo.Location = new System.Drawing.Point(413, 98);
+            this.txtcorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcorreo.Location = new System.Drawing.Point(375, 45);
             this.txtcorreo.Name = "txtcorreo";
-            this.txtcorreo.Size = new System.Drawing.Size(183, 35);
+            this.txtcorreo.Size = new System.Drawing.Size(183, 30);
             this.txtcorreo.TabIndex = 11;
             // 
             // txtusuariou
             // 
-            this.txtusuariou.Location = new System.Drawing.Point(114, 224);
+            this.txtusuariou.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtusuariou.Location = new System.Drawing.Point(97, 154);
             this.txtusuariou.Name = "txtusuariou";
-            this.txtusuariou.Size = new System.Drawing.Size(183, 35);
+            this.txtusuariou.Size = new System.Drawing.Size(183, 30);
             this.txtusuariou.TabIndex = 10;
             // 
             // txtcontraseña
             // 
-            this.txtcontraseña.Location = new System.Drawing.Point(451, 221);
+            this.txtcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcontraseña.Location = new System.Drawing.Point(417, 154);
             this.txtcontraseña.Name = "txtcontraseña";
-            this.txtcontraseña.Size = new System.Drawing.Size(183, 35);
+            this.txtcontraseña.Size = new System.Drawing.Size(183, 30);
             this.txtcontraseña.TabIndex = 9;
             // 
             // txtdni
             // 
-            this.txtdni.Location = new System.Drawing.Point(451, 164);
+            this.txtdni.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdni.Location = new System.Drawing.Point(415, 90);
             this.txtdni.Name = "txtdni";
-            this.txtdni.Size = new System.Drawing.Size(183, 35);
+            this.txtdni.Size = new System.Drawing.Size(183, 30);
             this.txtdni.TabIndex = 8;
             // 
             // txtnombreu
             // 
-            this.txtnombreu.Location = new System.Drawing.Point(114, 167);
+            this.txtnombreu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombreu.Location = new System.Drawing.Point(99, 93);
             this.txtnombreu.Name = "txtnombreu";
-            this.txtnombreu.Size = new System.Drawing.Size(183, 35);
+            this.txtnombreu.Size = new System.Drawing.Size(183, 30);
             this.txtnombreu.TabIndex = 7;
             // 
             // txttipo
             // 
-            this.txttipo.Location = new System.Drawing.Point(81, 98);
+            this.txttipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttipo.Location = new System.Drawing.Point(69, 45);
             this.txttipo.Name = "txttipo";
-            this.txttipo.Size = new System.Drawing.Size(183, 35);
+            this.txttipo.Size = new System.Drawing.Size(183, 30);
             this.txttipo.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(313, 101);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(291, 45);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 29);
+            this.label6.Size = new System.Drawing.Size(78, 25);
             this.label6.TabIndex = 5;
             this.label6.Text = "Correo:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(303, 170);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(291, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 29);
+            this.label5.Size = new System.Drawing.Size(118, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "Documento:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 233);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(6, 159);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 29);
+            this.label4.Size = new System.Drawing.Size(85, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Usuario:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(303, 227);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(291, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 29);
+            this.label3.Size = new System.Drawing.Size(120, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Contraseña:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 170);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 29);
+            this.label2.Size = new System.Drawing.Size(87, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 101);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 29);
+            this.label1.Size = new System.Drawing.Size(57, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tipo:";
             // 
@@ -249,7 +260,7 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(13, 318);
+            this.groupBox2.Location = new System.Drawing.Point(12, 318);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(693, 97);
             this.groupBox2.TabIndex = 12;
@@ -313,17 +324,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 644);
+            this.Controls.Add(this.btnmodificar);
+            this.Controls.Add(this.btnlimpiar);
+            this.Controls.Add(this.btnregistrar);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.btneliminar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Usuarios";
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -338,11 +350,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtcorreo;
         private System.Windows.Forms.TextBox txtusuariou;
@@ -363,5 +370,9 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtpersona;
+        private System.Windows.Forms.Button btneliminar;
+        private System.Windows.Forms.Button btnregistrar;
+        private System.Windows.Forms.Button btnmodificar;
+        private System.Windows.Forms.Button btnlimpiar;
     }
 }
