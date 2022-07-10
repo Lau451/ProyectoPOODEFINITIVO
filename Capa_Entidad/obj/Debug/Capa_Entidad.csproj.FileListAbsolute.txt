@@ -4,3 +4,9 @@ C:\Users\aldoj\OneDrive\Escritorio\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entid
 C:\Users\aldoj\OneDrive\Escritorio\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
 C:\Users\aldoj\OneDrive\Escritorio\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.dll
 C:\Users\aldoj\OneDrive\Escritorio\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\aldoj\Documents\ProyectoPOO\Capa_Entidad\obj\Debug\Capa_Entidad.pdb

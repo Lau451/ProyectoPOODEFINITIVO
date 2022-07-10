@@ -58,5 +58,11 @@ namespace ProyectoPOO
             Form form = new Usuarios();
             form.Show();
         }
+
+        private void btnproductos_Click(object sender, EventArgs e)
+        {
+            Form form2 = new Productos();
+            form2.Show();
+        }
     }
 }
