@@ -16,3 +16,12 @@ C:\Users\aldoj\Documents\ProyectoPOO\Capa_Datos\obj\Debug\Capa_Datos.csproj.Core
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\obj\Debug\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Datos\obj\Debug\Capa_Datos.pdb

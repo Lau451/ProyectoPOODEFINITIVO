@@ -76,5 +76,11 @@ namespace ProyectoPOO
         {
             this.Close();
         }
+
+        private void tnregistrarse_Click(object sender, EventArgs e)
+        {
+            Form form = new Registro();
+            form.Show();
+        }
     }
 }

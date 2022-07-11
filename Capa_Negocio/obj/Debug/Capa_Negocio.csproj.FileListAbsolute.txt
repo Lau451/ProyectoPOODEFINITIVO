@@ -20,3 +20,14 @@ C:\Users\aldoj\Documents\ProyectoPOO\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\aldoj\Documents\ProyectoPOO\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\lauma\Source\Repos\ProyectoPOODEFINITIVO\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
