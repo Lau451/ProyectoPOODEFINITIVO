@@ -182,11 +182,11 @@
             // 
             this.registrarse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("registrarse.BackgroundImage")));
             this.registrarse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.registrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarse.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.registrarse.Location = new System.Drawing.Point(380, 312);
             this.registrarse.Name = "registrarse";
-            this.registrarse.Size = new System.Drawing.Size(96, 34);
+            this.registrarse.Size = new System.Drawing.Size(105, 34);
             this.registrarse.TabIndex = 13;
             this.registrarse.Text = "Registrarse";
             this.registrarse.UseVisualStyleBackColor = true;

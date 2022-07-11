@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,8 +45,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 47);
+            this.label1.Location = new System.Drawing.Point(180, 70);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 24);
@@ -55,8 +57,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 95);
+            this.label2.Location = new System.Drawing.Point(180, 120);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 24);
@@ -66,8 +69,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(45, 136);
+            this.label3.Location = new System.Drawing.Point(180, 168);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 24);
@@ -77,7 +81,8 @@
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(213, 55);
+            this.lblnombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblnombre.Location = new System.Drawing.Point(377, 81);
             this.lblnombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(44, 13);
@@ -87,7 +92,8 @@
             // lblcargo
             // 
             this.lblcargo.AutoSize = true;
-            this.lblcargo.Location = new System.Drawing.Point(213, 101);
+            this.lblcargo.BackColor = System.Drawing.Color.Transparent;
+            this.lblcargo.Location = new System.Drawing.Point(377, 128);
             this.lblcargo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcargo.Name = "lblcargo";
             this.lblcargo.Size = new System.Drawing.Size(16, 13);
@@ -97,7 +103,8 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(213, 142);
+            this.lblfecha.BackColor = System.Drawing.Color.Transparent;
+            this.lblfecha.Location = new System.Drawing.Point(377, 179);
             this.lblfecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(16, 13);
@@ -106,11 +113,14 @@
             // 
             // btnproductos
             // 
-            this.btnproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnproductos.Location = new System.Drawing.Point(4, 216);
-            this.btnproductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnproductos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnproductos.BackgroundImage")));
+            this.btnproductos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproductos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnproductos.Location = new System.Drawing.Point(61, 232);
+            this.btnproductos.Margin = new System.Windows.Forms.Padding(2);
             this.btnproductos.Name = "btnproductos";
-            this.btnproductos.Size = new System.Drawing.Size(146, 42);
+            this.btnproductos.Size = new System.Drawing.Size(131, 42);
             this.btnproductos.TabIndex = 6;
             this.btnproductos.Text = "PRODUCTOS";
             this.btnproductos.UseVisualStyleBackColor = true;
@@ -118,11 +128,14 @@
             // 
             // btnlista
             // 
-            this.btnlista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlista.Location = new System.Drawing.Point(162, 216);
-            this.btnlista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnlista.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlista.BackgroundImage")));
+            this.btnlista.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnlista.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlista.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnlista.Location = new System.Drawing.Point(206, 232);
+            this.btnlista.Margin = new System.Windows.Forms.Padding(2);
             this.btnlista.Name = "btnlista";
-            this.btnlista.Size = new System.Drawing.Size(245, 42);
+            this.btnlista.Size = new System.Drawing.Size(215, 42);
             this.btnlista.TabIndex = 7;
             this.btnlista.Text = "LISTA DE PRODUCTOS";
             this.btnlista.UseVisualStyleBackColor = true;
@@ -130,11 +143,14 @@
             // 
             // btnclientes
             // 
-            this.btnclientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclientes.Location = new System.Drawing.Point(411, 216);
-            this.btnclientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnclientes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnclientes.BackgroundImage")));
+            this.btnclientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnclientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnclientes.Location = new System.Drawing.Point(445, 232);
+            this.btnclientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnclientes.Name = "btnclientes";
-            this.btnclientes.Size = new System.Drawing.Size(118, 42);
+            this.btnclientes.Size = new System.Drawing.Size(105, 42);
             this.btnclientes.TabIndex = 8;
             this.btnclientes.Text = "CLIENTES";
             this.btnclientes.UseVisualStyleBackColor = true;
@@ -148,7 +164,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(614, 331);
             this.Controls.Add(this.btnclientes);
             this.Controls.Add(this.btnlista);
             this.Controls.Add(this.btnproductos);
@@ -158,7 +177,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Principal";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Principal_Load);
