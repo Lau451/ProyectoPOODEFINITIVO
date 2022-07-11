@@ -119,6 +119,7 @@
             this.txttipo.Name = "txttipo";
             this.txttipo.Size = new System.Drawing.Size(116, 26);
             this.txttipo.TabIndex = 6;
+            this.txttipo.Leave += new System.EventHandler(this.txttipo_Leave);
             // 
             // txtnombre
             // 
@@ -127,6 +128,7 @@
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(116, 26);
             this.txtnombre.TabIndex = 7;
+            this.txtnombre.Leave += new System.EventHandler(this.txtnombre_Leave);
             // 
             // txtusuario
             // 
@@ -135,6 +137,7 @@
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(116, 26);
             this.txtusuario.TabIndex = 8;
+            this.txtusuario.Leave += new System.EventHandler(this.txtusuario_Leave);
             // 
             // txtpass
             // 
@@ -143,6 +146,7 @@
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(116, 26);
             this.txtpass.TabIndex = 9;
+            this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
             // 
             // txtcorreo
             // 
@@ -151,6 +155,7 @@
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(116, 26);
             this.txtcorreo.TabIndex = 10;
+            this.txtcorreo.Leave += new System.EventHandler(this.txtcorreo_Leave);
             // 
             // txtdni
             // 
@@ -159,6 +164,8 @@
             this.txtdni.Name = "txtdni";
             this.txtdni.Size = new System.Drawing.Size(116, 26);
             this.txtdni.TabIndex = 11;
+            this.txtdni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtdni_KeyPress);
+            this.txtdni.Leave += new System.EventHandler(this.txtdni_Leave);
             // 
             // label7
             // 
