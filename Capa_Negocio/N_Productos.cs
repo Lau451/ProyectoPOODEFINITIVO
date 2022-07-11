@@ -21,6 +21,10 @@ namespace Capa_Negocio
         {
             return objd.D_mantenimiento_productos(obje);
         }
+        public DataTable N_buscar_productos(E_Productos obje)
+        {
+            return objd.D_buscar_productos(obje);
+        }
 
     }
         

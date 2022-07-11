@@ -39,3 +39,4 @@ C:\Users\aldoj\Documents\ProyectoPOO\ProyectoPOO\obj\Debug\Capa_Presentacion.csp
 C:\Users\aldoj\Documents\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.exe
 C:\Users\aldoj\Documents\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.pdb
 C:\Users\aldoj\Documents\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.Productos.resources
+C:\Users\aldoj\Documents\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.Lista_Productos.resources

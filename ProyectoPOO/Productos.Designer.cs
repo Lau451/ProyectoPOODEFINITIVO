@@ -150,6 +150,7 @@
             // 
             // btnguardar
             // 
+            this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.Location = new System.Drawing.Point(546, 282);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(338, 40);
@@ -160,6 +161,7 @@
             // 
             // txtlimpiar
             // 
+            this.txtlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtlimpiar.Location = new System.Drawing.Point(213, 328);
             this.txtlimpiar.Name = "txtlimpiar";
             this.txtlimpiar.Size = new System.Drawing.Size(83, 36);
@@ -170,6 +172,7 @@
             // 
             // txteditar
             // 
+            this.txteditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txteditar.Location = new System.Drawing.Point(60, 328);
             this.txteditar.Name = "txteditar";
             this.txteditar.Size = new System.Drawing.Size(83, 36);
@@ -180,6 +183,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(377, 328);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 36);

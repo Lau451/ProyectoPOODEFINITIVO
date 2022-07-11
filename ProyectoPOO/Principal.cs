@@ -27,7 +27,7 @@ namespace ProyectoPOO
 
                     btnclientes.Enabled = true;
                     btnproductos.Enabled = true;
-                    btncompras.Enabled = true;
+                    btnlista.Enabled = true;
 
                     lblcargo.Text = "Administrador";
                 }
@@ -37,8 +37,8 @@ namespace ProyectoPOO
 
                 {
                     btnclientes.Enabled = true;
-                    btnproductos.Enabled = true;
-                    btncompras.Enabled = false;
+                    btnproductos.Enabled = false;
+                    btnlista.Enabled = true;
 
                     lblcargo.Text = "Cliente";
                 }
@@ -63,6 +63,12 @@ namespace ProyectoPOO
         {
             Form form2 = new Productos();
             form2.Show();
+        }
+
+        private void btnlista_Click(object sender, EventArgs e)
+        {
+            Form form3 = new Lista_Productos();
+            form3.Show();
         }
     }
 }

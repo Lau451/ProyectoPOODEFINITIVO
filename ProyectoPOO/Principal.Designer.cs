@@ -36,7 +36,7 @@
             this.lblcargo = new System.Windows.Forms.Label();
             this.lblfecha = new System.Windows.Forms.Label();
             this.btnproductos = new System.Windows.Forms.Button();
-            this.btncompras = new System.Windows.Forms.Button();
+            this.btnlista = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -100,31 +100,32 @@
             // 
             // btnproductos
             // 
-            this.btnproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnproductos.Location = new System.Drawing.Point(38, 333);
+            this.btnproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproductos.Location = new System.Drawing.Point(12, 333);
             this.btnproductos.Name = "btnproductos";
-            this.btnproductos.Size = new System.Drawing.Size(243, 64);
+            this.btnproductos.Size = new System.Drawing.Size(213, 64);
             this.btnproductos.TabIndex = 6;
             this.btnproductos.Text = "PRODUCTOS";
             this.btnproductos.UseVisualStyleBackColor = true;
             this.btnproductos.Click += new System.EventHandler(this.btnproductos_Click);
             // 
-            // btncompras
+            // btnlista
             // 
-            this.btncompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncompras.Location = new System.Drawing.Point(323, 333);
-            this.btncompras.Name = "btncompras";
-            this.btncompras.Size = new System.Drawing.Size(197, 64);
-            this.btncompras.TabIndex = 7;
-            this.btncompras.Text = "COMPRAS";
-            this.btncompras.UseVisualStyleBackColor = true;
+            this.btnlista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlista.Location = new System.Drawing.Point(243, 333);
+            this.btnlista.Name = "btnlista";
+            this.btnlista.Size = new System.Drawing.Size(350, 64);
+            this.btnlista.TabIndex = 7;
+            this.btnlista.Text = "LISTA DE PRODUCTOS";
+            this.btnlista.UseVisualStyleBackColor = true;
+            this.btnlista.Click += new System.EventHandler(this.btnlista_Click);
             // 
             // btnclientes
             // 
-            this.btnclientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclientes.Location = new System.Drawing.Point(563, 333);
+            this.btnclientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclientes.Location = new System.Drawing.Point(617, 333);
             this.btnclientes.Name = "btnclientes";
-            this.btnclientes.Size = new System.Drawing.Size(197, 64);
+            this.btnclientes.Size = new System.Drawing.Size(171, 64);
             this.btnclientes.TabIndex = 8;
             this.btnclientes.Text = "CLIENTES";
             this.btnclientes.UseVisualStyleBackColor = true;
@@ -140,7 +141,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnclientes);
-            this.Controls.Add(this.btncompras);
+            this.Controls.Add(this.btnlista);
             this.Controls.Add(this.btnproductos);
             this.Controls.Add(this.lblfecha);
             this.Controls.Add(this.lblcargo);
@@ -165,7 +166,7 @@
         private System.Windows.Forms.Label lblcargo;
         private System.Windows.Forms.Label lblfecha;
         private System.Windows.Forms.Button btnproductos;
-        private System.Windows.Forms.Button btncompras;
+        private System.Windows.Forms.Button btnlista;
         private System.Windows.Forms.Button btnclientes;
         private System.Windows.Forms.Timer timer1;
     }

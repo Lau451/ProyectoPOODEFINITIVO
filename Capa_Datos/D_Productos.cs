@@ -43,6 +43,16 @@ namespace Capa_Datos
             return accion;
 
         }
+        public DataTable D_buscar_productos(E_Productos obje)
+        {
+            SqlCommand cmd = new SqlCommand("sp_buscar_productos", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@nombre", obje.nombre);
+            SqlDataAdapter dap = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            dap.Fill(dt);
+            return dt;
+        }
     }
 }
 

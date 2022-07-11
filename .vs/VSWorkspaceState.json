@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Capa_Negocio",
     "\\ProyectoPOO"
   ],
-  "SelectedNode": "\\ProyectoPOO.sln",
+  "SelectedNode": "\\ProyectoPOO\\Productos.cs",
   "PreviewInSolutionExplorer": false
 }
