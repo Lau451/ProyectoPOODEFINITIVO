@@ -40,11 +40,12 @@
             // dgvproductos
             // 
             this.dgvproductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvproductos.Location = new System.Drawing.Point(12, 12);
+            this.dgvproductos.Location = new System.Drawing.Point(8, 8);
+            this.dgvproductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvproductos.Name = "dgvproductos";
             this.dgvproductos.RowHeadersWidth = 62;
             this.dgvproductos.RowTemplate.Height = 28;
-            this.dgvproductos.Size = new System.Drawing.Size(776, 260);
+            this.dgvproductos.Size = new System.Drawing.Size(517, 169);
             this.dgvproductos.TabIndex = 0;
             // 
             // groupBox2
@@ -53,46 +54,52 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 316);
+            this.groupBox2.Location = new System.Drawing.Point(8, 205);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(693, 97);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(462, 63);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Buscar";
             // 
             // txtbuscar
             // 
-            this.txtbuscar.Location = new System.Drawing.Point(114, 49);
+            this.txtbuscar.Location = new System.Drawing.Point(76, 32);
+            this.txtbuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtbuscar.Name = "txtbuscar";
-            this.txtbuscar.Size = new System.Drawing.Size(530, 35);
+            this.txtbuscar.Size = new System.Drawing.Size(355, 26);
             this.txtbuscar.TabIndex = 7;
             this.txtbuscar.TextChanged += new System.EventHandler(this.txtbuscar_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 167);
+            this.label9.Location = new System.Drawing.Point(4, 109);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 29);
+            this.label9.Size = new System.Drawing.Size(68, 20);
             this.label9.TabIndex = 3;
             this.label9.Text = "Usuario:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1, 49);
+            this.label11.Location = new System.Drawing.Point(1, 32);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(107, 29);
+            this.label11.Size = new System.Drawing.Size(69, 20);
             this.label11.TabIndex = 1;
             this.label11.Text = "Nombre:";
             // 
             // Lista_Productos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dgvproductos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Lista_Productos";
             this.Text = "Lista_Productos";
             this.Load += new System.EventHandler(this.Lista_Productos_Load);
